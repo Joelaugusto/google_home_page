@@ -1,0 +1,50 @@
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+.container{
+    display: flex;
+}
+
+.textContainer{
+   display: grid;
+   padding: 2px 12px;
+}
+
+.textContainer span{
+    color: rgba(0,0,0,.54);
+}
+
+.textContainer span:last-child{
+    font-size: 14px;
+}
+
+.history{
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.withPic{
+    height: 44px;
+}
+
+.withoutPic{
+    height: 30px;
+}
+
+.history:hover{
+    background:#f2f2f2;
+}
+
+.button{
+    background: transparent;
+    border:none;
+    color: rgba(0,0,0,.54);
+    cursor:pointer;
+}
+
+.button:hover{
+    text-decoration: underline;
+}

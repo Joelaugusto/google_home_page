@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+p,a,span{
+  font-family: Arial, Helvetica, sans-serif,'Roboto', 'Segoe UI',-apple-system, BlinkMacSystemFont,'Segoe UI';
+}
+a:hover{
+  text-decoration: underline;
+}
+
+.center{
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+input:focus{
+  outline: none;
+}

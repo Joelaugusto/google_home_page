@@ -1,0 +1,36 @@
+.footer{
+    width:100%;
+    position:absolute;
+    bottom:0;
+    background: #f2f2f2;
+    box-sizing: border-box;
+}
+
+.linkGroupContainer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #dadce0;
+}
+
+.linkGroup{
+    display: flex;
+    list-style-type: none;
+}
+
+.link{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.country, .linkGroup{
+    padding: 0 20px;
+}
+
+.country, .link{
+  color: rgba(0,0,0,.54);
+}
+
+.country{
+  font-size: 15px;
+}

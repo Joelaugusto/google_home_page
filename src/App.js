@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import googleImg from './assets/images/googlelogo_color_272x92dp.png'
+import styles from './App.module.css';
+import GoogleSearchField from './components/GoogleSearchField';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import Languages from './components/Languages';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.app}>
+      <Navbar/>
+      <img src={googleImg} alt="Google Logo"/>
+      <GoogleSearchField/>
+      <Languages />
+      <Footer/>
     </div>
   );
 }
